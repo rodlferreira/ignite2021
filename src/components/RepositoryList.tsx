@@ -50,6 +50,8 @@ export function RepositoryList() {
                             quais são as informações que quando mudarem o 
                             "useEffect" vai executar de novo. */
 
+//NUNCA usar o "useEffect" dentro de funcao.                            
+
 //**NUNCA deixar de passar o segundo parametro.** caso isso ocorra, o useEffect entra em Looping.
 
     return(
